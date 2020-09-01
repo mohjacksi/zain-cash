@@ -14,6 +14,16 @@
 
     <!-- Custom styles for this template -->
     <link href="{{asset("css/signin.css")}}" rel="stylesheet">
+    <style>
+        textarea {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+            width: 100%;
+            height: 160px;
+        }
+    </style>
 </head>
 
 <body class="text-center">
@@ -41,13 +51,26 @@
         <p class="mt-5 mb-3 text-muted">&copy; Mjacksi.com</p>
         <div class="">
             <label for="textArea" class="sr-only">Example textarea</label>
-            <textarea class="form-control" id="textArea" rows="5" placeholder="Json"
+            <textarea class="form-control" id="resultTextArea" rows="10" placeholder="Json"
                       style="display:{{!isset($value)?"none":""}};"
                       autofocus>{{isset($value) && $value != null ? $value : ""}}</textarea>
 
         </div>
+
     </div>
 </form>
 
 </body>
 </html>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        prettyPrint();
+    });
+    function prettyPrint() {
+        var ugly = document.getElementById('resultTextArea').value;
+        var obj = JSON.parse(ugly);
+        var pretty = JSON.stringify(obj, undefined, 4);
+        document.getElementById('resultTextArea').value = pretty;
+    }
+
+</script>

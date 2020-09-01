@@ -38,25 +38,25 @@
         <p class=" mb-3 font-weight-normal">* Upload a file or just paste your json inside the textarea below</p>
         <input name="file" type="file" class="form-control-file" id="file">
         <br>
+        <button class="btn btn-lg btn-info btn-block mb-3" type="submit">Upload & Get Organized Json</button>
+
+        <br>
         <hr>
 
-        <h2 class="h3 mb-3 font-weight-normal">Enter Json</h2>
+        <h3 class="h3 mb-3 font-weight-normal">Enter Json</h3>
 
         <label for="textArea" class="sr-only">Example textarea</label>
-        <textarea name="json" class="form-control" id="textArea" rows="5" placeholder="Json" autofocus>[{"letter.txt":"Richard"},{"paper.pdf":"jack"},{"test.py":"Johnny"},{"numbers.docx":"jack"}]</textarea>
+        <textarea name="json" class="form-control" id="textArea" rows="5" placeholder='[{"letter.txt":"Richard"},{"paper.pdf":"jack"},{"test.py":"Johnny"},{"numbers.docx":"jack"}]' autofocus></textarea>
     </div>
     <div class="mb-3">
-
         <button class="btn btn-lg btn-primary btn-block" type="submit">Get Organized Json</button>
         <p class="mt-5 mb-3 text-muted">&copy; Mjacksi.com</p>
         <div class="">
             <label for="textArea" class="sr-only">Example textarea</label>
-            <textarea class="form-control" id="resultTextArea" rows="10" placeholder="Json"
+            <textarea class="form-control" id="resultTextArea" rows="5" placeholder="Json"
                       style="display:{{!isset($value)?"none":""}};"
-                      autofocus>{{isset($value) && $value != null ? $value : ""}}</textarea>
-
+                      >{{isset($value) && $value != null ? $value : ""}}</textarea>
         </div>
-
     </div>
 </form>
 

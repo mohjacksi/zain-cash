@@ -43,7 +43,7 @@ class JsonMind extends Model
             }
         });
 
-        // sorted by the number of files (to result as given output order)
+        // sorted by the number of files that the employee has (to result as given output order)
         $sorted = $new_collection->sortByDesc(function ($value, $key) {
             return count($value);
         });

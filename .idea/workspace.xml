@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2314108a-ad3e-4c96-83ed-b20e715916ec" name="Default Changelist" comment="final+">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/json.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/json.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="2314108a-ad3e-4c96-83ed-b20e715916ec" name="Default Changelist" comment="final++" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598942992164</updated>
       <workItem from="1598942993232" duration="22737000" />
-      <workItem from="1598974542605" duration="149000" />
+      <workItem from="1598974542605" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="final">
       <created>1598973575928</created>
@@ -166,16 +163,35 @@
       <option name="project" value="LOCAL" />
       <updated>1598974009883</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final++">
+      <created>1598974997158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598974997158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final" />
     <MESSAGE value="final+" />
-    <option name="LAST_COMMIT_MESSAGE" value="final+" />
+    <MESSAGE value="final++" />
+    <option name="LAST_COMMIT_MESSAGE" value="final++" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598970241454">

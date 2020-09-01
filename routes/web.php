@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Controller@index')->name('home');
 // Permissions
-Route::post('/json', 'Controller@getOrganizedJson')->name('get_organized_json');
+Route::post('/', 'Controller@getOrganizedJson')->name('get_organized_json');
 

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2314108a-ad3e-4c96-83ed-b20e715916ec" name="Default Changelist" comment="" />
+    <list default="true" id="2314108a-ad3e-4c96-83ed-b20e715916ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/JsonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/JsonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/json.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/json.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +15,9 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,6 +125,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gtnwDld3qex33lBhcHeIvDaG3j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -142,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598942992164</updated>
-      <workItem from="1598942993232" duration="20142000" />
+      <workItem from="1598942993232" duration="22046000" />
     </task>
     <servers />
   </component>
@@ -154,6 +163,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1598970241454" />
+    <state x="767" y="422" key="Github.ShareDialog" timestamp="1598971364773">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="767" y="422" key="Github.ShareDialog/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1598971364773" />
+    <state x="732" y="226" key="Github.UntrackedFilesDialog" timestamp="1598971382506">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="732" y="226" key="Github.UntrackedFilesDialog/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1598971382506" />
     <state x="667" y="258" width="585" height="534" key="find.popup" timestamp="1598970288542">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -162,9 +179,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1598969450769" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1598970003832">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1598972265653">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1598970003832" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1598972265653" />
   </component>
 </project>

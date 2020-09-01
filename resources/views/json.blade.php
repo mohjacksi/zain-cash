@@ -19,29 +19,33 @@
 <body class="text-center">
 <form method="POST" action="{{ route("get_organized_json") }}" class="form-signin" enctype="multipart/form-data">
     @csrf
-    <img class="mb-4" src="https://mjacksi.com/files/uploads/2020/04/small-150x150.png" alt="" width="72" height="72">
+    <div class="mb-3">
+        <a href="https://mjacksi.com">
+            <img class="mb-4" src="https://mjacksi.com/files/uploads/2020/04/small-150x150.png" alt="" width="72"
+                 height="72">
+        </a>
+        <h1 class="h1 mb-3 font-weight-normal">Json parser</h1>
+        <p class=" mb-3 font-weight-normal">* Upload a file or just paste your json inside the textarea below</p>
+        <input name="file" type="file" class="form-control-file" id="file">
+        <br>
+        <hr>
 
-    <h2 class="h3 mb-3 font-weight-normal">Upload .Json File</h2>
-    <input name="file" type="file" class="form-control-file" id="file">
-    <br>
-    <h2 class="h3 mb-3 font-weight-normal">Enter Json</h2>
+        <h2 class="h3 mb-3 font-weight-normal">Enter Json</h2>
 
-    <label for="textArea" class="sr-only">Example textarea</label>
-    <textarea name="json" class="form-control" id="textArea" rows="5" placeholder="Json" required autofocus>[{"letter.txt":"Richard"},{"paper.pdf":"jack"},{"test.py":"Johnny"},{"numbers.docx":"jack"}]</textarea>
-
-    <div class="checkbox mb-3">
-        <label>
-            <input type="checkbox" value="remember-me"> Remember me
-        </label>
-    </div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Get Organized Json</button>
-    <p class="mt-5 mb-3 text-muted">&copy; Mjacksi.com</p>
-    <div class="">
         <label for="textArea" class="sr-only">Example textarea</label>
-        <textarea class="form-control" id="textArea" rows="5" placeholder="Json"
-                  style="display:{{!isset($value)?"none":""}};"
-                  autofocus>{{isset($value) && $value != null ? $value : ""}}</textarea>
+        <textarea name="json" class="form-control" id="textArea" rows="5" placeholder="Json" autofocus>[{"letter.txt":"Richard"},{"paper.pdf":"jack"},{"test.py":"Johnny"},{"numbers.docx":"jack"}]</textarea>
+    </div>
+    <div class="mb-3">
 
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Get Organized Json</button>
+        <p class="mt-5 mb-3 text-muted">&copy; Mjacksi.com</p>
+        <div class="">
+            <label for="textArea" class="sr-only">Example textarea</label>
+            <textarea class="form-control" id="textArea" rows="5" placeholder="Json"
+                      style="display:{{!isset($value)?"none":""}};"
+                      autofocus>{{isset($value) && $value != null ? $value : ""}}</textarea>
+
+        </div>
     </div>
 </form>
 

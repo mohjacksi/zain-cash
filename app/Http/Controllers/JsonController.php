@@ -30,9 +30,20 @@ class JsonController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        $json = $request['json'];
-        return JsonMind::getTheSolution($json);
+        //Check if there is a file attached to parse it,
+        // if not then will get it from json field!
+        if ($request->hasFile('file')) {
+            //
+            $file =  $request->file;
+            $file = file_get_contents($file->getRealPath());
+
+            return JsonMind::getTheSolution($file);
+
+        }else{
+            $json = $request['json'];
+            return JsonMind::getTheSolution($json);
+
+        }
 
     }
 
